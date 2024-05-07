@@ -20,7 +20,6 @@ const Layout = () => {
     }, [fontsLoaded, fontError]);
 
     if (!fontsLoaded && !fontError) {
-        console.log("Something still goes wrong...")
         return <AppLoading />
     }
 
